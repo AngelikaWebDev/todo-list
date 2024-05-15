@@ -1,3 +1,53 @@
-#tareaTable {
-    display: none;
-}
+  .logo {
+    color: #fd7e14!important;
+  }
+  
+  .container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+  }
+  
+  .container-input > input {
+    width: 40%;
+  }
+  
+  input[type="checkbox"] {
+    accent-color: #fd7e14;
+  }
+  
+  main {
+    width: 60%;
+    margin: 80px auto 0;
+  }
+  
+  ul {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .todo-item {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    align-items: center;
+    padding: 1em;
+    background-color: #f2f2f2a8;
+    list-style: none;
+    word-break: break-all;
+  }
+  
+  span {
+    margin: 0 8px;
+  }
+  
+  .taskDelete {
+    cursor: pointer;
+    color: #fd7e14;
+    font-weight: bold;
+  }
+  
+  .taskDelete:hover {
+    color: #e36600;
+  }
+  
