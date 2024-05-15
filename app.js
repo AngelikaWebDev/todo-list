@@ -6,7 +6,6 @@ window.onload = function() {
     taskInput.addEventListener("keypress", function(event) {
       if (event.key === "Enter") {
         const taskText = taskInput.value.trim();
-        console.log("tarea creada");
         addTask(taskText);
       }
     });
